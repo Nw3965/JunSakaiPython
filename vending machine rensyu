@@ -1,0 +1,14 @@
+for i in range (100,150):
+    print('This vending machine will accept only \n100 yen coin or 50 yen coin\nInsert your coin')
+    x= input()
+    while int(x):
+        if int(x)== 100:
+            print("Here you are. \nYou got \n<Water>")
+            break
+        elif int(x)== 150:
+            print("Here you are. \nYou got \n<Orange juice>")
+            break
+        else:
+            print("That's not sufficient or Too much.")
+            break
+            #自販機で100円玉か50円玉を入れた時のプログラム
