@@ -1,5 +1,5 @@
 for i in range (100,150):
-    print('You are at Kyoto station\ninformation for the destination\nType Osaka or Kusatsu')
+    print('You are in Kyoto station\ninformation for the destination\nType Osaka or Kusatsu')
     while True:
         word = input()
         if word =='Osaka':
