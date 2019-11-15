@@ -1,0 +1,15 @@
+for i in range (100,150):
+    print('You are at Kyoto station\ninformation for the destination\nType Osaka or Kusatsu')
+    while True:
+        word = input()
+        if word =='Osaka':
+            print('Take the <Special Rapid Service> for Himeji \nfrom track <seven>\nThe train will arrive within 3 minutes')
+            #何分後に発車するかリアルタイムで表示出来たらよい。
+            break
+        elif int== 'Kusatsu':
+            print('Take the <Special Rapid Service> for Yasu \nfrom track <Two>\n3 minutes behind the schedule')
+            break
+        else:
+            print("Type another word")
+            break
+            #駅の案内版：大阪か草津をアルファベットで記入すれば運転状況と何の電車に乗ればいいか表示するシステム
