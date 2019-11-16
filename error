@@ -1,0 +1,25 @@
+def compound (co):
+    def interest(interests):
+        return co*interests
+    return interest
+
+print('type number \n')
+x= input()
+int (x)
+
+y= input()
+int(y)
+
+z= input()
+int (z)
+
+five_years=compound(x)
+seven_years=compound(y)
+ten_years=compound(z)
+
+x = (five_years(0.012))
+y = (seven_years(0.0121))
+z = (ten_years(0.013))
+
+a = [x+y+z]
+print(a)
