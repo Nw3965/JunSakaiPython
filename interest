@@ -1,8 +1,7 @@
 def compound (co):
-def interest(interests):
-return co*interests
-
-return interest
+    def interest(interests):
+        return co*interests
+    return interest
 
 five_years=compound(100000)
 seven_years=compound(10000000)
@@ -12,9 +11,5 @@ num5=(five_years(0.012))
 num7=(seven_years(0.0121))
 num10=(ten_years(0.013))
 
-#type(ten_years)
-#print(ten_years)
-x = [num5+num7+num10]
-print(x)
-
-#クロージャー
+z = [num5+num7+num10]
+print(z)
