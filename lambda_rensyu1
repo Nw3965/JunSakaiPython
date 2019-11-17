@@ -1,0 +1,7 @@
+prices = [300,400.443,22214,4343]
+priceList= list(filter(lambda price:price>350,prices))
+priceList.sort()
+
+print(priceList)
+
+https://www.sejuku.net/blog/23677
